@@ -39,7 +39,7 @@ So, you must search channel first, and then search videos.
    ```
 4. Run whisper (STT) -> make filtering_file_list.csv
    ```
-   python oneshot_extract.py --save_path $SAVE_PATH
+   python run_whisper.py --save_path $SAVE_PATH --hf_token $YOUR_HF_TOKEN
    ```
 5. Cleaning folder to save disk memory -> make step1_segment_id_list.csv
    ```
