@@ -11,10 +11,9 @@ import argparse
 
 
 def thumb_filtering(save_path, video_file_name, yolo_weight_path):
-    # csv_name = glob.glob(os.path.join(save_path, '*.csv'))[0].split('/')[-1]
     video_df = pd.read_csv(os.path.join(save_path, video_file_name))
     file_list = sorted(video_df['video_id'].tolist())
-    person_model = YOLO('/home/winston1214/workspace/nc/video_feature_extract/yolov8m.pt')
+    person_model = YOLO('yolov8m.pt')
     video_list = sorted(set(map(lambda x: x[:11], file_list)))
     new_file_list = []
     for i in tqdm(video_list):
