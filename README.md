@@ -60,7 +60,7 @@ Detailed information is available in the [VENUS folder](https://github.com/winst
 ### Acknowlegements
 We sincerely thank the open-sourcing of these works where our code is based on:
 
-<a href='https://github.com/yt-dlp/yt-dlp'>yt-dlp</a>, <a href='https://github.com/m-bain/whisperX'>WhisperX</a>, <a href='https://github.com/Junhua-Liao/Light-ASD'>Light-ASD</a>, <a href='https://github.com/IDEA-Research/OSX'>OSX</a>, <a href='https://github.com/radekd91/emoca'>EMOCA</a>, <a href='https://github.com/EricGuo5513/momask-codes'>momask</a>
+<a href='https://github.com/yt-dlp/yt-dlp'>yt-dlp</a>, <a href='https://github.com/m-bain/whisperX'>WhisperX</a>, <a href='https://github.com/Junhua-Liao/Light-ASD'>Light-ASD</a>, <a href='https://github.com/IDEA-Research/OSX'>OSX</a>, <a href='https://github.com/radekd91/emoca'>EMOCA</a>, <a href='https://github.com/EricGuo5513/momask-codes'>momask</a>, <a href='https://github.com/axolotl-ai-cloud/axolotl'>axolotl</a>, <a href='https://github.com/vllm-project/vllm'>vllm</a>
 
 ### Contributions
 - **Youngmin Kim**: Dataset Collection and Curation, Model Implementation, Experimentation, Experimental Design, Visualization, Writing, Data Analysis Planning, Project Coordination
