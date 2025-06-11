@@ -1,7 +1,7 @@
 # VENUS collection pipeline
 <img src='https://github.com/winston1214/nonverbal-conversation/blob/main/imgs/VENUS_PIPELINE.png?raw=true'></img>
 
-### (a) Data Collection and Filtering
+## (a) Data Collection and Filtering
 
 #### 1. Search Channels or Videos
 
@@ -37,6 +37,7 @@ So, you must search channel first, and then search videos.
    ```
    python youtube_download.py --save_path $SAVE_PATH --mode wav --org_del 1
    ```
+## (b) ASR Transcripts
 4. Run whisper (STT) -> make filtering_file_list.csv
    ```
    python run_whisper.py --save_path $SAVE_PATH --hf_token $YOUR_HF_TOKEN
@@ -63,6 +64,7 @@ So, you must search channel first, and then search videos.
    ```
    python checking.py --save_path $SAVE_PATH --mode check_fps 
    ```
+## (c) Identifying Speaker
 8. RUN ASD (Active Speaker Detection)
    ```
    python step2_main.py --save_path $SAVE_PATH --batch_size $YOLO_BATCH_SIZE --weight_path $ASD_WEIGHT_PATH
@@ -75,9 +77,15 @@ So, you must search channel first, and then search videos.
     ```
     python crop_person_single.py --mode full --save_path $SAVE_PATH
     ```
-14. Extract mesh parameter
+## (d) Extracting Nonverbal-Cues
+14. Extract mesh parameter (Body language)
    ```
    cd OSX/demo/ && python demo_batch.py
+   ```
+15. Extract mesh parameter (Facial Expression)
+   ```bash
+   cd emoca-ydc/gdl_apps/EMOCA
+   sh run_face.sh
    ```
 
 <!----
