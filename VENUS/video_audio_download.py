@@ -118,7 +118,7 @@ def video_split(save_path, segment_time):
             
             start_time=60
             segment_index=0
-            # 비디오 전체 길이
+            # Total length of the video
             duration_cmd = f"ffprobe -v error -show_format -show_streams '{full_video_path}'"
             duration_output = os.popen(duration_cmd).read()
             duration_info = duration_output.split('\n')
