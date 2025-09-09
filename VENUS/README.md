@@ -1,6 +1,8 @@
 # VENUS collection pipeline
 <img src='https://github.com/winston1214/nonverbal-conversation/blob/main/imgs/VENUS_PIPELINE.png?raw=true'></img>
 
+**⚠️ We are currently cleaning up the code! Updates will be released as soon as possible.**
+
 ## (a) Data Collection and Filtering
 
 #### 1. Search Channels or Videos
