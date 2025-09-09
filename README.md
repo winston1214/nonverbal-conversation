@@ -47,11 +47,24 @@ Detailed information is available in the [VENUS folder](https://github.com/winst
 <details>
   <summary>Click to expand for more details</summary>
 
-  <b>VQ-VAE Training</b>
+  - <b>VQ-VAE Training</b>
 
-  - Item 1
-  - Item 2
-  - Item 3
+  ```bash
+  python train_vq.py \
+  --mode $MODE \                # Training target: body | face
+  --exp_name $EXPNAME \   # Experiment folder name
+  --name $WEIGHT_NAME \       # Run identifier
+  --nb_code $CODEBOOK_NUM \      # Number of codebook entries
+  --code_dim $CODEBOOK_EMB_DIM \      # Dimension of each code vector
+  --recons_loss $LOSS        # Reconstruction loss: l1 | l2 | smooth_l1
+
+
+  ```
+
+  - Evaluation
+  ```bash
+  ```
+  - Tokenize
 
 </details>
 
