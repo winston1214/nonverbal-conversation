@@ -26,6 +26,7 @@ Cheoljong Yang ,
 - [VENUS-1K](https://huggingface.co/datasets/winston1214/VENUS-1K)🤗: 1,000 annotated samples for prototyping
 - [VENUS-5K](https://huggingface.co/datasets/winston1214/VENUS-5K)🤗: 5,000 samples for small-scale training
 - [VENUS-10K](https://huggingface.co/datasets/winston1214/VENUS-10K)🤗: 10,000 samples for medium-scale training
+- [VENUS-25K](https://huggingface.co/datasets/winston1214/VENUS-25K)🤗: 25,000 samples for large-scale training
 - [VENUS-50K](): _Comming soon!_
 - [VENUS-100K](): _Comming soon!_ (Full dataset)
 
